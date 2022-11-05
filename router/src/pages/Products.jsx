@@ -1,7 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button } from "react-bootstrap";
-import Vlogpost from "../components/vlogposts";
+import Vlogpost from "../components/Vlogposts";
 
 const Products = () => {
   return (

@@ -7,6 +7,7 @@ import Login from "./pages/Login";
 import Services from "./pages/Services";
 import Home from "./pages/Home";
 import Footer from "./pages/Footer";
+import Testimonials from "./components/Testimonials";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -33,7 +34,7 @@ function App() {
             <Route path='/services' element={<Services />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/login' element={<Login />} />
-          </Routes>
+          </Routes>{" "}
           <Footer />
         </BrowserRouter>
       </div>

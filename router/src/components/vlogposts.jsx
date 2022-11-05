@@ -1,4 +1,3 @@
-import { Col, Container, Row } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Vlogpost = ({
