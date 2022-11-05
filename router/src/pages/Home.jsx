@@ -1,6 +1,7 @@
 import Content from "./Content";
 import Testimonials from "../components/Testimonials";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Hub from "../components/hub";
 
 const Home = () => {
   return (
@@ -14,7 +15,10 @@ const Home = () => {
           type='email'
         />
       </div>
-      <div className='what d-flex justify-content-center align-items-center flex-column'>
+      <div className='hub w-100'>
+        <Hub />
+      </div>
+      <div className='what d-flex justify-content-around align-items-center flex-column'>
         <h1>What people say about us</h1>
         <div
           className='scroll d-flex flex-row w-100 align-items-center'
